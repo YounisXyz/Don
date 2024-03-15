@@ -1,7 +1,25 @@
-import os,platform
-os.system('git pull')
-xyz=platform.architecture()[0]
-if xyz=="32bit":
-    print("\033[1;97m[\033[1;93m This Tool is only For 64bit Devices, Your Phone is 32bit, Please try Another Device or Wait for Some ill update this for 32bit users. \n\t\033[1;92m Thanks For Joining Younis John \033[1;97m ]") 
-elif xyz=="64bit":
-    __import__("YOUNISXD")
+import os,time
+os.system("git pull")
+os.system("clear")
+print("\033[1;96mSubscribe Me On YouTube Channel For Keep Sporting and Updating 😍❤️‍🩹🤡 ")
+time.sleep(2)
+os.system("xdg-open https://www.youtube.com/@YounisXyz")
+os.system("clear") 
+print("""\033[0;97mDon feature has been added in XYZ offical tool
+please use XYZ Command!""")
+
+print("\033[1;93m XYZ installation Command 👇💀")
+
+print("""\033[1;92m
+cd
+clear
+rm -rf Xyz
+git clone https://github.com/YounisXyz/Xyz
+cd Xyz
+python Xyz.py""")
+
+print("\033[0;97m\n\nCopy This Command and Run")
+print("\033[0;97mContact to Admin on WhatsApp For any Error: +923404708884")
+exit("\033[1;92mThanks For Using YounisXyz Tools ❤️💀")
+ 
+
